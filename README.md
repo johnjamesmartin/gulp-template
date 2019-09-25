@@ -1,6 +1,6 @@
 # Gulp Template
 
-This is a Gulp Template I developed to enhance and automate web development and design workflows.
+This is a Gulp template/build system I developed to enhance and automate web development and design workflows.
 
 ## Installation
 
