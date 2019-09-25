@@ -1,0 +1,9 @@
+// import all styles
+
+// Helpers
+@import 'helpers/_variables';
+@import 'helpers/_mixins';
+
+body {
+  background-color: $col-1;
+}

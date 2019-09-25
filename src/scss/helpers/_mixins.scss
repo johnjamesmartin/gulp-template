@@ -1,0 +1,18 @@
+@mixin horizontal-center() {
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+  right: 0;
+}
+
+@mixin vertical-center() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+@mixin center() {
+  @include horizontal-center();
+  @include vertical-center();
+}
